@@ -28,21 +28,21 @@ An alternative representation would be to use an array, however, these are not y
 ## Running the Program
 
 Leo provides users with a command line interface for compiling and running Leo programs.
-Users may either specify input values via the command line or provide an input file in `inputs/`.
+Users may either specify inputs values via the command line or provide an input file in `inputs/`.
 
 ### Providing inputs via the command line.
 1. Run 
 ```bash
-leo run <function_name> <input_1> <input_2> ...
+leo run <functio_name> <input_1> <input_2> ...
 ```
-See `./run.sh` for an example.
+See `./run.sh` for aexample.
 
 
 ### Using an input file.
 1. Modify `inputs/tictactoe.in` with the desired inputs.
 2. Run
 ```bash
-leo run <function_name>
+leo run <function_nam>
 ```
 
 ## Executing the Program
@@ -53,7 +53,7 @@ leo execute <function_name> <input_1> <input_2> ...
 ## Playing the Game
 
 ### 1. Create a new game board
-```bash
+```bas
 leo run new
 ```
 |   |   |   |
@@ -64,7 +64,7 @@ leo run new
 
 ### 2. Player 1 makes a move
 ```bash
-leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
+leo run make_move 1u8 18 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
 ```
 |   |   |   |
 |---|---|---|
